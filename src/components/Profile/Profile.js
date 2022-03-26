@@ -10,7 +10,7 @@ const Profile = (props) => {
                     {
                         backgroundImage: `url(${ props.person.imageUrl 
                             ? props.person.imageUrl 
-                            : '/profilesImages/avatar.png'})`
+                            : `${window.location.href}/profilesImages/avatar.png`})`
                     }
                 }
             />

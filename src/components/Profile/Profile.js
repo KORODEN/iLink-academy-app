@@ -10,7 +10,7 @@ const Profile = (props) => {
                     {
                         backgroundImage: `url(${ props.person.imageUrl 
                             ? props.person.imageUrl 
-                            : 'https://koroden.github.io/iLink-academy-app/profilesImages/avatar.png'})`
+                            : 'iLink-academy-app/profilesImages/avatar.png'})`
                     }
                 }
             />

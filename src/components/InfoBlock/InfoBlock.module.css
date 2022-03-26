@@ -1,0 +1,149 @@
+.mainInfo {
+    display: flex;
+    padding: 0 80px;
+    margin-bottom: 120px;
+    width: 100%;
+    height: 450px;
+}
+
+.mainInfoImg {
+    width: 40%;
+    background-size: cover;
+    background-position: 0% 10%;
+    border-radius: 2px;
+    margin-top: 32px;
+}
+
+.mainInfoBlock {
+    padding: 40px;
+    width: 60%;
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.firstRow h2 {
+    font-family: 'Factor A';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--colorSecondary);
+}
+
+.firstRow p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.125rem;
+    letter-spacing: 0.01em;
+    color: #8A8A8A;
+}
+
+.secondRow,
+.thirdRow,
+.fourthRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.secondRow {
+    margin-top: 20px;
+}
+
+.secondRow p,
+.thirdRow p,
+.fourthRow p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01em;
+    color: var(--colorPrimary);
+    margin-right: 40px;
+}
+
+.secondRow p strong,
+.thirdRow p strong,
+.fourthRow p strong {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01em;
+    color: var(--colorPrimary);
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.gender p {
+    margin-right: 0;
+}
+
+.gender svg {
+    margin: 4px;
+}
+
+.thirdRow {
+    margin-top: 18px;
+}
+
+.fourthRow {
+    margin-top: auto;
+}
+
+.fourthRow svg {
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 1440px) {
+    .mainInfo {
+        height: 415px;
+    }
+}
+
+@media screen and (max-width: 1284px) {
+    .mainInfo {
+        height: 450px;
+    }
+
+    .secondRow p,
+    .thirdRow p,
+    .fourthRow p {
+        font-size: 1.05rem;
+        line-height: 1.5rem;
+        margin-right: 28px;
+    }
+
+    .secondRow p strong,
+    .thirdRow p strong,
+    .fourthRow p strong {
+        font-size: 1.05rem;
+        line-height: 1.5rem;
+    }
+
+    .gender {
+        margin-right: 28px;
+    }
+
+    .gender p {
+        margin-right: 0;
+    }
+
+    .firstRow h2 {
+        font-size: 1.5rem;
+    }
+}

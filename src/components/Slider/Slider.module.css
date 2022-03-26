@@ -1,0 +1,71 @@
+.slider {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.reviews {
+    height: 525px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 2px;
+    padding: 56px 56px 32px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewsButtons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviewsHeader h2{
+    font-family: 'Factor A';
+    font-weight: 500;
+    font-size: 4.25rem;
+    line-height: 5.5rem;
+    color: var(--colorPrimary);
+}
+
+.arrows {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 34px;
+}
+
+.arrows button {
+    padding: 16px;
+    margin-left: 16px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.arrows button:hover path {
+    stroke: #585CC6;
+}
+
+.arrows button:disabled {
+    background-color: #E0E0E0;
+    cursor: default;
+}
+
+.arrows button:disabled path {
+    stroke: #ADADAD;
+}
+
+.arrows button svg {
+    padding: 0;
+    margin: 0;
+}

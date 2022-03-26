@@ -1,0 +1,71 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modalContent {
+    padding: 24px;
+    background-color: #FFFFFF;
+    width: 676px;
+}
+
+.title {
+    font-family: 'Factor A';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.0124em;
+    color: var(--colorPrimary);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title svg {
+    cursor: pointer;
+}
+
+.bodyName {
+    margin-top: 20px;
+}
+
+.bodyName p {
+    font-family: 'Factor A';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.0124em;
+    color: var(--colorPrimary);
+    margin-bottom: 14px;
+}
+
+.bodyName input {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: var(--colorPrimary);
+    width: 395px;
+    height: 52px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    padding: 15px 12px;
+    margin-right: 16px;
+}
+
+.bodyName input:focus {
+    outline: none;
+    border-color: var(--colorSecondary);
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

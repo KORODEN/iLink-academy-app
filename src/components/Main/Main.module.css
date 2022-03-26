@@ -1,0 +1,50 @@
+main {
+    background-repeat: no-repeat;
+    background-position: 100% -80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 106px;
+}
+
+.helloText {
+    width: 100%;
+    padding: 93px 0 90px 80px;
+}
+
+.helloText h1 {
+    font-family: 'Factor A';
+    font-weight: 500;
+    font-size: 7.75rem;
+    line-height: 9.25rem;
+    max-width: 1167px;
+
+    letter-spacing: -0.0124em;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1284px) {
+    .helloText h1 {
+        font-size: 6.5rem;
+        line-height: 7rem;
+        max-width: 1020px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1105px) {
+    .helloText h1 {
+        font-size: 6.5rem;
+        line-height: 7rem;
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+
+}
+
+@media screen and (max-width: 585px) {
+
+}

@@ -1,0 +1,41 @@
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profileImg {
+    background-size: cover;
+    background-position: top;
+    border-radius: 2px;
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+.profileInfo {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    color: var(--colorPrimary);
+}
+
+.profileReviewInfo {
+    font-family: 'Factor A';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: var(--colorPrimary);
+}
+
+@media screen and (max-width: 664px) {
+    .profileInfo {
+        font-size: 0.8rem;
+    }
+
+    .profileImg {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+    }
+}

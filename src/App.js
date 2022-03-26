@@ -8,13 +8,14 @@ import Modal from "./components/Modal/Modal";
 import {useState} from "react";
 
 function App() {
+    const homepage = 'https://koroden.github.io/iLink-academy-app'
     const person = {
         name: 'Денис',
         lastName: 'Корогодин',
         gender: 'мужчина',
         birthDate: '06.04.2000',
         currentCity: 'Томск',
-        imageUrl: '/profilesImages/profile-img.jpg',
+        imageUrl: `${homepage}/profilesImages/profile-img.jpg`,
         description: `В данный момент преподаю 
             программирование для детей. В прошлом году 
             закончил НИ ТПУ по направлению "Информатика и 
@@ -28,7 +29,7 @@ function App() {
             person: {
                 name: 'Буба',
                 lastName: 'Бубенцов',
-                imageUrl: '/profilesImages/otherProfiles/profile1.png'
+                imageUrl: `${homepage}/profilesImages/otherProfiles/profile1.png`
             },
             commentDate: '08.01.2022',
             comment: `Отличный коллектив, руководители 
@@ -57,7 +58,7 @@ function App() {
             person: {
                 name: 'Юрина',
                 lastName: 'Маргарита',
-                imageUrl: '/profilesImages/otherProfiles/profile2.png'
+                imageUrl: `${homepage}/profilesImages/otherProfiles/profile2.png`
             },
             commentDate: '26.12.2021',
             comment: `Наша компания благодарна фирме ilink за сотрудничество. 
@@ -71,7 +72,7 @@ function App() {
             person: {
                 name: 'Дмитрий',
                 lastName: 'Иванов',
-                imageUrl: '/profilesImages/otherProfiles/profile3.png'
+                imageUrl: `${homepage}/profilesImages/otherProfiles/profile3.png`
             },
             commentDate: '16.12.2021',
             comment: `Отвечал за найм и адаптацию сотрудников в компании, за 

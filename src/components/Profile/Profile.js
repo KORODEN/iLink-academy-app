@@ -9,7 +9,7 @@ const Profile = (props) => {
                 style={
                     {
                         backgroundImage: `url(${ props.person.imageUrl 
-                            ? props.person.imageUrl 
+                            ? window.location.href + props.person.imageUrl 
                             : `${window.location.href}/profilesImages/avatar.png`})`
                     }
                 }

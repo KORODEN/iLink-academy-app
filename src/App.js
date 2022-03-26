@@ -14,7 +14,7 @@ function App() {
         gender: 'мужчина',
         birthDate: '06.04.2000',
         currentCity: 'Томск',
-        imageUrl: `${window.location.href}/profilesImages/profile-img.jpg`,
+        imageUrl: '/profilesImages/profile-img.jpg',
         description: `В данный момент преподаю 
             программирование для детей. В прошлом году 
             закончил НИ ТПУ по направлению "Информатика и 
@@ -28,7 +28,7 @@ function App() {
             person: {
                 name: 'Буба',
                 lastName: 'Бубенцов',
-                imageUrl: `${window.location.href}/profilesImages/otherProfiles/profile1.png`
+                imageUrl: '/profilesImages/otherProfiles/profile1.png'
             },
             commentDate: '08.01.2022',
             comment: `Отличный коллектив, руководители 
@@ -57,7 +57,7 @@ function App() {
             person: {
                 name: 'Юрина',
                 lastName: 'Маргарита',
-                imageUrl: `${window.location.href}/profilesImages/otherProfiles/profile2.png`
+                imageUrl: '/profilesImages/otherProfiles/profile2.png'
             },
             commentDate: '26.12.2021',
             comment: `Наша компания благодарна фирме ilink за сотрудничество. 
@@ -71,7 +71,7 @@ function App() {
             person: {
                 name: 'Дмитрий',
                 lastName: 'Иванов',
-                imageUrl: `${window.location.href}/profilesImages/otherProfiles/profile3.png`
+                imageUrl: '/profilesImages/otherProfiles/profile3.png'
             },
             commentDate: '16.12.2021',
             comment: `Отвечал за найм и адаптацию сотрудников в компании, за 

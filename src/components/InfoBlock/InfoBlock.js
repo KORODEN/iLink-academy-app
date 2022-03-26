@@ -11,7 +11,7 @@ const InfoBlock = () => {
         <div className={classes.mainInfo}>
             <div
                 className={classes.mainInfoImg}
-                style={{backgroundImage: `url(${person.imageUrl})`}}
+                style={{backgroundImage: `url(${window.location.href + person.imageUrl})`}}
             />
             <div className={classes.mainInfoBlock}>
                 <div className={classes.firstRow}>
